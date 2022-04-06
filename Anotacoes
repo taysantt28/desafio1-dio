@@ -1,2 +1,17 @@
+Link Markdown Sintaxe Básica: https://www.markdownguide.org/basic-syntax/
+
 Link para download do git: https://git-scm.com/downloads
-O Git Bas é um terminal extendido para otimizar o uso do Git.
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+
+Comandos úteis:
+
+git status= mostra o status dos 'arquivos' criados = modified, unmodified ou staged
+git add <file> = adiciona arquivo no repositório original
+git add * = adiciona todas as modificações ao repositório original
+git commit -m "Comentário relevante da modificação" = comita o arquivo, saindo do stage
+git push origin main/master = "empurra" os arquivos da servido local para a servidor remoto
+git pull origin main/master = "puxa"/descarrega os arquivos modificados no servidor remoto para o servidor local.
+
+
+
